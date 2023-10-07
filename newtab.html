@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Google</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+    ul {
+      list-style-type: none;
+      overflow: hidden;
+    }
+
+    li {
+      float: right;
+    }
+
+    li a {
+      color: #000;
+      display: block;
+      text-align: center;
+      padding: 10px 10px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    li a:hover {
+      text-decoration: underline;
+    }
+
+    .contextbarbottom {
+      background-color: rgb(41, 41, 41);
+      height: 100px;
+    }
+
+    .grid {
+      height: 23px;
+      position: relative;
+      bottom: 4px;
+    }
+
+    .signbutton {
+      background-color: #4885ed;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 7px 10px;
+      position: relative;
+      bottom: 7px;
+      font-weight: bold;
+    }
+
+    .logo {
+      margin-top: 200px;
+      margin-bottom: 20px;
+    }
+
+    .bar {
+      margin: 0 auto;
+      width: 575px;
+      border-radius: 30px;
+      border: 1px solid grey;
+      transition: box-shadow 0.15s;
+    }
+
+    .bar:hover {
+      box-shadow: 0px 0px 1px 5px rgba(116, 67, 116, 0.7);
+    }
+
+    .bar:focus-within {
+      box-shadow: 0px 0px 1px 5px rgba(116, 67, 116, 0.7);
+    }
+
+    .searchbar {
+      height: 45px;
+      border: none;
+      width: 500px;
+      font-size: 16px;
+      outline: none;
+      background-color: transparent;
+      color: grey;
+    }
+
+    .voice {
+      height: 20px;
+      position: relative;
+      top: 5px;
+      left: 10px;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .searchbutton {
+      background-color: #1b1b1b;
+      border: none;
+      color: #ffffff;
+      font-size: 15px;
+      padding: 15px 50px;
+      margin: 5px;
+      margin-bottom: 500px;
+      border-radius: 100px;
+      outline: none;
+      cursor: pointer;
+      box-shadow: 0px 5px 1px 1px rgb(14, 14, 14);
+      transition: box-shadow 0.15s;
+    }
+
+    .searchbutton:hover {
+      box-shadow: 0px 5px 1px 1px rgba(116, 67, 116, 0.7);
+    }
+
+    .searchbutton:active {
+      box-shadow: 0px 5px 1px 1px rgba(255, 153, 255, 0.7);
+    }
+  </style>
+
+  <script>
+    window.console = window.console || function (t) { };
+  </script>
+
+</head>
+
+<body translate="no" style="margin-top: 300px;">
+  <!DOCTYPE html>
+  <html>
+  <form>
+    <center>
+      <div class="logo">
+        <img alt="Google" src="assets/SKLCROP.png" style="width: 500px;">
+      </div>
+      <div class="bar">
+        <input class="searchbar" type="text" title="Search" placeholder="Search Freely With SKULL">
+      </div>
+      <div class="buttons">
+        <button class="searchbutton" type="submit">Search</button>
+      </div>
+      <div>
+        <p style="font-family: Roboto; color: white;">
+          Simple UI is my passion
+        </p>
+      </div>
+
+      <script src="uv/uv.bundle.js"></script>
+      <script src="uv/uv.config.js"></script>
+      <script src="index.js"></script>
+      <script src="update.js"></script>
+  </form>
+
+  <div class="contextbarbottom" style="line-height: 100px; display: flex; align-items: center; justify-content: center;">
+    <p class="contextbarbottomtext" style="font-family: Gabarito; color: rgb(255, 255, 255);">
+      Made by ZORONIX devs
+    </p>
+  </div>
+
+  </html>
+</body>
