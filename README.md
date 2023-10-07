@@ -15,10 +15,14 @@ Skull proxy is a easy to use, powerful, and a perfect tool for bypassing interne
 
 Fork and deploy to replit, or
 
-1. Download VSCODE,
-2. Install the LiveServer extension
-3. Open the Index File using the LiveServer
-4. Enjoy the proxy!
+1. Install the latest release
+2. Extract the file
+3. Enter the extracted folder
+4. Take the "skull" folder and drag it to the desktop
+5. Download VSCODE,
+6. Install the LiveServer extension
+7. Open the Index File using the LiveServer
+8. Enjoy the proxy!
 
 ## Usage
 
